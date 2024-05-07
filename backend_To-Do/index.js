@@ -4,6 +4,7 @@ const { createTodo, updateTodo, deleteTodo } = require("./types");
 const { todo } = require("./db");
 const cors = require("cors");
 const app=express();
+require("dotenv").config();
 
 
 app.use(express.json());
@@ -159,8 +160,8 @@ app.delete("/delete",async (req,res)=>{
     }
 })
 
-
-app.listen(3000,()=>{
+const port = process.env.PORT || 3000 ;
+app.listen(port,()=>{
     console.log("listen");
     
 });
