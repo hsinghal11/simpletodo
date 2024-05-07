@@ -1,0 +1,10 @@
+/* Styles specific to the App component */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  

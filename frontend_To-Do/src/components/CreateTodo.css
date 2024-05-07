@@ -1,0 +1,20 @@
+/* Styles for the CreateTodo component */
+.create-todo input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .create-todo button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 3px;
+  }
+  
+  .create-todo button:hover {
+    background-color: #218838;
+  }
+  
